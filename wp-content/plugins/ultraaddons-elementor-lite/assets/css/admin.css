@@ -1,0 +1,489 @@
+
+/*********** UltraAddons Style - In Plugin List ****************/
+/*.ultraaddons-color-heading,*/
+p.ultraaddons-info,
+table.wp-list-table.widefat.plugins tr[data-slug='ultraaddons-elementor-lite'] td.plugin-title.column-primary strong,
+#elementor-panel-category-addons-ultraaddons .elementor-panel-category-title{
+    color: #db3157;
+    background: linear-gradient(to right, #532d70 0%, #db3157 45%);
+    background: -webkit-linear-gradient(to right, #532d70 4%, #db3157 58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*transition: 10s all;*/
+    animation-name: ultraaddons-background-animation !important;
+    animation-duration: 2.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.elementor-element.elementor-element-edit-mode.elementor-element--toggle-edit-tools.elementor-widget.elementor-widget-ultraaddons-wc-categories.ua-element.ua-element-wc-categories{
+    
+}
+/*.ultraaddons-color-heading:hover,*/
+p.ultraaddons-info:hover,
+table.wp-list-table.widefat.plugins tr[data-slug='ultraaddons-elementor-lite']:hover td.plugin-title.column-primary strong,
+#elementor-panel-category-addons-ultraaddons:hover .elementor-panel-category-title {
+    background: linear-gradient(to right, #ff0039 0%,#411365 45%);
+    background: -webkit-linear-gradient(to right, #ff0039 0%,#411365 100%, #ff0039 68%);
+    /*#411365*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes ultraaddons-background-animation {
+  0% {
+    background: linear-gradient(to right, #532d70 0%, #db3157 45%);
+    background: -webkit-linear-gradient(to right, #532d70 4%, #db3157 58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  100% {
+    background: linear-gradient(to right, #532d70 40%, #db3157 95%);
+    background: -webkit-linear-gradient(to right, #532d70 40%, #db3157 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+/*********** UltraAddons Style - In Plugin List | End Here ****************/
+/*****UltraAddons Menu item in Dashboard********/
+#adminmenu li.menu-top a.wp-has-submenu.wp-not-current-submenu.menu-top.toplevel_page_ultraaddons-elementor-lite.menu-top-last {
+    background: linear-gradient( 0deg, #673ab740, #0000002e);
+    background: -webkit-linear-gradient( 0deg, #673ab740, #0000002e);
+/*    border-top: 1px solid #ffffff29;
+    border-bottom: 1px solid black;*/
+/*    animation-name: ultraaddons-menu-bg-animation !important;
+    animation-duration: 1.05s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;*/
+}
+/*@keyframes ultraaddons-menu-bg-animation {
+  0% {
+        background: linear-gradient( 0deg, #673ab740, #e91e6391);
+        background: -webkit-linear-gradient( 0deg, #673ab740, #e91e6391);
+  }
+  100% {
+        background: linear-gradient( 360deg, #673ab740, #e91e6391);
+        background: -webkit-linear-gradient( 360deg, #673ab740, #e91e6391);
+  }
+}*/
+/*****UltraAddons Menu item in Dashboard | END********/
+
+/****************** Menu Text in Dashboard **********************/
+li#toplevel_page_ultraaddons-elementor-lite .wp-menu-image img {
+    max-width: 20px;
+}
+li#toplevel_page_ultraaddons-elementor-lite.current .wp-menu-image img {
+    opacity: 1;
+}
+
+/*#adminmenu a.toplevel_page_ultraaddons-elementor{
+    background: linear-gradient(to right, #ff0039 41%,#9822f4 100%)
+    background: -webkit-linear-gradient(to right, #ff0039 0%,#411365 100%, #9822f4 68%);
+    #411365
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+/****************** Menu Text in Dashboard | END **********************/
+
+
+
+
+
+
+/***** Menu Page Start*******/
+.ultraaddons-license-details, .ultraaddons-dashboard-area {
+    background: #fff;
+    padding: 10px 30px 50px;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #000;
+    webkit-box-shadow: 0 5px 40px 0 rgba(10, 10, 25, .1);
+    -moz-box-shadow: 0 5px 40px 0 rgba(10, 10, 25, .1);
+    box-shadow: 0 5px 40px 0 rgb(10 10 25 / 10%);
+}
+.ultraaddons-admin-wrapper {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-top: 0;
+    color: #000;
+    max-width: 100%;
+}
+
+.about-wrap h3 {
+    margin: 1.25em 0 .6em;
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+.system-status-table {
+    width: 100%;
+}
+.system-status-table tr td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+h1.ultraaddons-color-heading {
+    font-weight: 400;
+    color: #691fe1;
+    color: #ffffff;
+    text-shadow: 2px 4px 7px #5050503d;
+    /* text-shadow: -5px 1px 0px #e0e0e0; */
+    /* background: linear-gradient(45deg, #d422fc, #2b1ed1); */
+    display: inline-block;
+    /* padding: 20px; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+smal.ultraaddons-version-in-title {
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 50%;
+    background: #5656567a;
+    /* background: linear-gradient(212deg, #0000004f, #a9a9a9); */
+    padding: 0 9px 3px 9px;
+    border-radius: 3px;
+}
+p.ultraaddons-info {
+    font-size: 22px;
+}
+
+.ua-admin-header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.ua-header-menu {
+    display: block;
+    width: 100%;
+}
+
+ul.ua-submenu {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    column-gap: 1px;
+}
+
+ul.ua-submenu li {
+    font-size: 22px;
+    /* box-shadow: 0 5px 40px 0 rgb(10 10 25 / 22%); */
+    font-weight: 100;
+}
+
+ul.ua-submenu li a {
+    color: white;
+    padding: 15px 30px;
+    display: block;
+    /*border-bottom: 6px solid #07001526;*/
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+    background: linear-gradient(160deg, #7934d5, #fb3bd2);
+    /* background: #7439e5; */
+    /*background: #ac21f2;*/
+    border-bottom: 6px solid rgb(90, 42, 183);
+    background: rgb(116, 57, 229);
+    text-decoration: none;
+}
+ul.ua-submenu li.ua-current-menu a {
+    background: #4caf50;
+    border-color: #409844;
+    color: white;
+}
+
+/***** Menu Page End*******/
+
+/*********For Widget | Extenstion Menu List | Start *********/
+h1.ua-page-title {
+    font-size: 2.3em;
+    color: #8020e7;
+}
+
+.ua-header {
+    margin: 45px 0;
+    border-bottom: 1px solid #dddddd38;
+    padding-bottom: 15px;
+}
+.ua-option-item i.ua-option-icon {
+    font-size: 45px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 4px;
+    color: #4a4a4a;
+    border: 1px solid #efefef;
+    background: #00000005;
+    height: 45px;
+    width: 45px;
+    /*    margin-bottom: 8px;
+    margin-top: 8px;*/
+}
+.ua-option-item:hover i.ua-option-icon {
+    border: 1px solid #b5b3b3;
+    color: #000000;
+    /* border-radius: 5px; */
+    background: transparent;
+}
+.ua-option-item-wrappper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: stretch;
+    margin: 45px 0;
+}
+
+.ua-option-item-wrappper .ua-option-item {
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 40px 0 rgb(10 10 25 / 10%);
+    padding: 30px 15px;
+    text-align: center;
+    cursor: pointer;
+    background:white;
+}
+.ua-option-item-wrappper .ua-option-item.free:hover {
+    box-shadow: 0 5px 40px 0 rgb(10 10 25 / 22%);
+    /*box-shadow: 0 5px 40px 0 rgb(10 10 25 / 10%);*/
+}
+
+.ua-option-item {
+}
+
+.ua-option-item-inside {
+    width: 100%;
+}
+span.ua-option-version-type{
+    position: absolute;
+    transform: rotate(45deg);
+    color: white;
+    width: 123px;
+    text-align: center;
+    top: -40px;
+    right: -63px;
+    height: 27px;
+    padding-top: 55px;
+}
+span.ua-option-version-type.ua-option-version-type-pro {
+    background: #e91e63;
+}
+.item_on_off_enable.ua-option-item.disabled span.ua-option-version-type.ua-option-version-type-pro,
+.ua-option-item.disabled span.ua-option-version-type.ua-option-version-type-free{
+    background: #bfbfbf;
+}
+span.ua-option-version-type.ua-option-version-type-free {
+    background: #4caf50;
+}
+h2.ua-item-name {
+    padding: 0;
+    margin: 20px auto;
+    font-size: 25px;
+}
+.item_on_off_enable span.ua-option-version-type.ua-option-version-type-pro {
+    background: #607d8b;
+    border-bottom: 1px solid black;
+    color: white;
+}
+.ua-option-item-wrappper .ua-option-item.item_on_off_disable {
+    opacity: .65;
+    background: #e6e6e6;
+}
+
+/* for More */
+.ua-option-item-wrappper label.ua-option-item.More {
+    background: #ffffff !important;
+    opacity: 1 !important;
+/*    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;*/
+}
+
+.ua-option-item-wrappper label.ua-option-item.More .ua-designed-checkbox {
+    /*background: #f06c99;*/
+}
+
+.ua-option-item-wrappper label.ua-option-item.More span.ua-option-version-type.ua-option-version-type-pro {
+    background: #ff9800;
+    font-size: 0;
+}
+
+.ua-option-item-wrappper label.ua-option-item.More h2.ua-item-name {font-style: italic;font-weight: bold;}
+.ua-option-item-wrappper label.ua-option-item.More .ua-designed-checkbox:before{
+    animation-name: ultraaddons-animated-on-off;
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ultraaddons-animated-on-off {
+  from {left: 12px;background-color: black;}
+  to {left: 35px;}
+}
+/*.ua-option-item-wrappper label.ua-option-item.More .ua-option-item-inside {
+    display: flex;
+    align-items: center;
+}*/
+/* for More End*/
+
+
+
+/**##### Checkbox ######**/
+.ua-designed-checkbox {
+    display: block;
+    height: 32px;
+    background: #4caf50;
+    width: 64px;
+    margin: auto;
+    border-radius: 16px;
+    position: relative;
+}
+.ua-designed-checkbox:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: white;
+    z-index: 55;
+    position: absolute;
+    border-radius: 50%;
+    top: 6px;
+    left: 35px;
+    transition: .4s all;
+}
+.ua-checkbox-hidden:checked + .ua-designed-checkbox{
+    background: #eeeeee;
+}
+.ua-version-free .ua-option-item.pro .ua-designed-checkbox{
+    background: #bfbfbf;
+}
+.ua-checkbox-hidden:checked + .ua-designed-checkbox:before{
+    background: #ffffff;
+    left: 8px;
+}
+input.ua-checkbox-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+/**##### Checkbox | END ######**/
+
+/**##### Submit Button ######**/
+
+.ultraaddons-wrap button.ua-primary {
+    background: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 1.4em;
+    padding: 5px 25px;
+}
+.ultraaddons-wrap button.ua-primary.ua-no-update,
+.ultraaddons-wrap button.ua-primary.ua-no-update:hover{
+    background: #eeeeee;
+    border-color: #eeeeee;
+}
+.ultraaddons-wrap button.ua-primary:hover {
+    background: #59ca5e;
+    border-color: #4caf50;
+}
+.ultraaddons-wrap button.ua-primary:hover,
+.ultraaddons-wrap button.ua-primary:focus,
+.ultraaddons-wrap button.ua-primary:active{
+    outline: 0 none !important;
+    box-shadow: none !important;
+}
+
+
+/*********For Widget Menu List | END *********/
+
+/**** Header Footer Form ****/
+
+.ua-form-wrappper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: stretch;
+    margin: 45px 0;
+}
+.ultraaddons-field-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ultraaddons-field-container label {
+    padding: 0 0 15px 0;
+    font-size: 1.2em;
+    display: block;
+}
+
+.ultraaddons-field-container select.ultraddons-select,
+.ultraaddons-field-container select,.ultraaddons-field-container input[type=text] {
+    width: 100%;
+    max-width: 25rem;
+}
+.ua-radio-top {
+    display: block;
+}
+
+h4.ua-hf-radio-label-title {
+    display: inline;
+    padding-left: 15px;
+}
+
+.ua-hf-type-radio {
+}
+
+.ua-radion-type {
+    background: #ddd0;
+    padding: 20px;
+    border: 1px solid #dddddd5c;
+}
+
+.ua-radio-message {
+    font-style: italic;
+    margin: 15px 15px 15px 40px;
+}
+.ua-form-message {
+    color: #afafaf;
+}
+.ua-hf-type-radio:checked + h4.ua-hf-radio-label-title {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+input.ua-hf-type-radio[type=radio]:checked::before {
+    background-color: #4caf50;
+}
+.field-container-size{display: none;}
+/**** Header Footer Form | END****/
+
+label.ua-option-item i.ua-option-icon.uicon-ultraaddons:before{
+    -webkit-animation:ua-spin 2s linear infinite;
+    -moz-animation:ua-spin 2s linear infinite;
+    animation:ua-spin 2s linear infinite;
+}
+
+@-moz-keyframes ua-spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes ua-spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes ua-spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/*************************
+* Other 
+**************************/
+.ua-content-info.ua-shortcode-content h3>small {
+    color: #b3adad;
+    font-size: 70%;
+    font-weight: 100;
+}
+
+body.wp-admin pre.xdebug-var-dump {
+    margin-left: 200px;
+}

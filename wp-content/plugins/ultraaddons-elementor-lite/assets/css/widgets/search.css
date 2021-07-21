@@ -1,0 +1,69 @@
+
+.ua-element form.search-form,
+.ua-element form.woocommerce-product-search{
+  position: relative;
+  display: flex;
+}
+
+.ua-element form.search-form input.search-field,
+.ua-element form.woocommerce-product-search input.search-field{
+  width: 100%;
+  height: 58px;
+  border: 1px solid #e2ebf1;
+  border: 1px solid var(--medilac-secondary-deep);
+  /*border-radius: 0;*/
+  padding: 10px 15px;
+  color: #5c6b79;
+  color: var(--medilac-light-dark);
+}
+.ua-element form.search-form label{width: 100%;}
+.ua-element form.search-form input.search-field::-webkit-input-placeholder,
+.ua-element form.woocommerce-product-search input.search-field::-webkit-input-placeholder{
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ua-element form.search-form input.search-field::-moz-placeholder,
+.ua-element form.woocommerce-product-search input.search-field::-moz-placeholder{
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ua-element form.search-form input.search-field:-ms-input-placeholder,
+.ua-element form.woocommerce-product-search input.search-field:-ms-input-placeholder{
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ua-element form.search-form input.search-field::placeholder,
+.ua-element form.woocommerce-product-search input.search-field::placeholder{
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ua-element form.search-form input.search-submit,
+.ua-element form.woocommerce-product-search button{
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  border: none;
+  /* height: 100%; */
+  /*border-radius: 0;*/
+  font-size: 0;
+  min-width: 60px;
+  width: 26%;
+  max-width: 190px;
+  color: transparent;
+  background: url('../../../assets/images/search-icon.png') no-repeat center center;
+  background-color: #0fc392;
+  cursor: pointer;
+}
+.ua-element form.search-form input.search-submit:hover, 
+.ua-element form.woocommerce-product-search button:hover,
+.ua-element form.search-form input.search-submit:focus, 
+.ua-element form.woocommerce-product-search button:focus,
+.ua-element form.search-form input.search-submit:active, 
+.ua-element form.woocommerce-product-search button:active
+{
+    background-color: #0c9e77;
+}
