@@ -19,8 +19,8 @@
  * @package WordPress
  */
 
-define('WP_HOME','https://localhost/Shroom');
-define('WP_SITEURL','https://localhost/Shroom');
+// define('WP_HOME','http://localhost/Shroom');
+// define('WP_SITEURL','http://localhost/Shroom');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
