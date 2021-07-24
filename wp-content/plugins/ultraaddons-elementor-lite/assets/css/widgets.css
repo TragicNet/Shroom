@@ -1,0 +1,170 @@
+/*****************************
+* Elementor Background Overlay
+******************************/
+.elementor .elementor-element.ua-background-overlay-yes .elementor-widget-container>*{position: relative;}
+.elementor .elementor-element.ua-background-overlay-yes .elementor-widget-container:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute !important;
+}
+
+/*****************************
+* Comon Transition for All Element
+******************************/
+.ua-info-box-wrapper .ua-info-box-icon,
+.ua-info-box-wrapper .ua-info-box-content,
+.ua-info-box-wrapper .elementor-icon-box-title,
+.ua-info-box-wrapper .elementor-icon-box-description,
+
+.ua-icon-box-wrapper .ua-icon-box-icon,
+.ua-icon-box-wrapper .ua-icon-box-content,
+.ua-icon-box-wrapper .elementor-icon-box-title,
+.ua-icon-box-wrapper .elementor-icon-box-description,
+
+.ssss .ssssss
+{transition: .3s all;}
+
+
+/*
+* Style for Header
+* and for Footer
+*/
+body.ultraaddons-header-css .site-header,
+body.ultraaddons-header-css #site-header,
+body.ultraaddons-header-css #masthead,
+body.ultraaddons-footer-css .site-footer,
+body.ultraaddons-footer-css #site-footer
+{
+    display: none !important;
+    height: 0;
+}
+
+.ultraaddons-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body:not(.elementor-page) .ultraaddons-container{
+    margin-top: 100px;    
+}
+
+@media (min-width:576px) {
+    body.ultraaddons-wrapper-box .ultraaddons-container {
+       max-width: 540px
+   }
+   
+}
+
+@media (min-width:768px) {
+    body.ultraaddons-wrapper-box .ultraaddons-container {
+        max-width: 730px
+    }
+}
+
+@media (min-width:992px) {
+    body.ultraaddons-wrapper-box .ultraaddons-container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    body.ultraaddons-wrapper-box .ultraaddons-container{
+        max-width: 1170px;
+    }
+}
+/*******Header Footer Style END here********/
+
+/*******************************
+* Common of All Widgets
+********************************/
+.ua-element .hidden_text,
+.ua-element .hidden_message,
+.ua-element .hidden{
+    display: none;
+}
+.elementor-element-edit-mode.ua-element .hidden_text,
+.elementor-element-edit-mode.ua-element .hidden_message,
+.elementor-element-edit-mode.ua-element .hidden{
+    display: block !important;
+    color: #D00;
+}
+
+/*******************************
+* Button Common Style. Button has rendered from Traits
+********************************/
+.btn-wrapper .ua-button.btn-size-xs {
+    padding: 4px 10px 4px 10px;
+}
+.btn-wrapper .ua-button.btn-size-sm {
+    padding: 10px 15px;
+}
+.btn-wrapper .ua-button.btn-size-md {
+    padding: 16px 25px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.btn-wrapper .ua-button.btn-size-lg {
+    padding: 15px 30px;
+    font-size: 22px;
+}
+.btn-wrapper .ua-button.btn-size-xl {
+    padding: 18px 45px;
+    font-size: 30px;
+}
+div.ua-element .elementor-widget-container .btn-wrapper a.ua-button {
+    text-decoration: none;
+    border-radius: 0;
+}
+
+/*.ua-element .btn-wrapper .ua-button.elementor-button {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ua-element .btn-wrapper .ua-button.elementor-button:hover {
+    color: #0fc392;
+    border-color: #0fc392;
+    background-color: transparent;
+}*/
+.ua-element .btn-wrapper .ua-button {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #21272c;
+    border-color: #21272c;
+    background-color: transparent;
+}
+
+.ua-element:hover .btn-wrapper .ua-button,
+.ua-element .btn-wrapper .ua-button:focus,
+.ua-element .btn-wrapper .ua-button:active
+{
+    color: #ffffff;
+    border-color: #0fc392;
+    background-color: #0fc392;
+}
+
+/*div.ua-element.ua-btn-align-left .btn-wrapper{text-align: left;}
+div.ua-element.ua-btn-align-right .btn-wrapper{text-align: right;}
+div.ua-element.ua-btn-align-center .btn-wrapper{text-align: center;}
+div.ua-element.ua-btn-align-justify .btn-wrapper{text-align: justify;}*/
+div.ua-element.ua-btn-align-justify .btn-wrapper a.ua-button{width: 100%;}
+
+.ua-btn-inline-yes.ua-element.ua-element-button{width: auto !important;}
+
+/*******************************
+* Transition
+********************************/
+.ua-transformed .elementor-widget-container {
+    transition: 1s all;
+}
+

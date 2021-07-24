@@ -1,0 +1,32 @@
+{
+    "name": "strategy11/another-wordpress-classifieds-plugin",
+    "description": "A plugin that provides the ability to run a free or paid classified ads servie on your WP site.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "classmap": [
+            "admin",
+            "frontend",
+            "includes",
+            "installer.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/includes"
+        ],
+        "exclude-from-classmap": [
+            "vendor/composer"
+        ]
+    },
+    "require-dev": {
+        "antecedent/patchwork": "2.*",
+        "brain/monkey": "dev-dev",
+        "dealerdirect/phpcodesniffer-composer-installer": "0.*",
+        "phake/phake": "3.*",
+        "phpcompatibility/php-compatibility": "*",
+        "phpmd/phpmd" : "@stable",
+        "phpunit/phpunit": "6.*",
+        "squizlabs/php_codesniffer": "^3.4.0",
+        "wp-coding-standards/wpcs": "*"
+    }
+}
