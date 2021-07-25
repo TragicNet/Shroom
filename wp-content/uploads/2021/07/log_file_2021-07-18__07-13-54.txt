@@ -1,0 +1,180 @@
+
+---Downloaded files---
+The import files for: Demo 1 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\wamp64\www\wordpress\wp-content\plugins\themefarmer-companion/theme-files/demos/newstore/newstore-wordpress.xml
+Widget file = C:\wamp64\www\wordpress\wp-content\plugins\themefarmer-companion/theme-files/demos/newstore/newstore-widgets.wie
+Customizer file = C:\wamp64\www\wordpress\wp-content\plugins\themefarmer-companion/theme-files/demos/newstore/newstore-customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+FrontPage Top Widget Area : 
+
+TF: Products - No Title - Imported
+
+WooCommerce Sidebar : 
+
+Ajax Product Search - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by Color - Imported
+Filter Products by Attribute - Filter by Brands - Imported
+Filter Products by Attribute - Filter by Size - Imported
+Filter Products by Rating - Filter By Rating - Imported
+Product Categories - Product categories - Imported
+Recently Viewed Products list - Recently Viewed Products - Imported
+
+Product Sidebar : 
+
+Image - No Title - Imported
+Recently Viewed Products list - Recently Viewed Products - Imported
+Wishlist - Wishlist - Imported
+Product Tag Cloud - Product tags - Imported
+
+FrontPage Products Widget Area : 
+
+TF: Products - Latest Products - Imported
+TF: Products - Featured Products - Imported
+TF: Products - On-Sale Products - Imported
+
+FrontPage Product Widget Area Column  : 
+
+Products list - Highest selling - Imported
+Products list - Random Products - Imported
+Products list - Lowest Price - Imported
+Products list - Highest Price - Imported
+
+Footer Widget Area Column 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Widget Area Column 2 : 
+
+Navigation Menu - Site Links - Imported
+
+Footer Widget Area Column 3 : 
+
+Gallery - New Products - Imported
+
+Footer Widget Area Column 4 : 
+
+Image - No Title - Imported
+Image - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+To make changes on Front Page go to Appearance -&gt; Customize
