@@ -848,8 +848,8 @@ a:hover, a:active {
     transform: rotate(-45deg);
 } */
 
-.widget-inner h3.section-title {
-    font-size: 20px;
+.widget-inner h1.section-title {
+    font-size: 100px;
 }
 
 /* sidebar widget start*/

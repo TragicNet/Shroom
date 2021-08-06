@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The main template file
  *
@@ -13,33 +14,33 @@
  */
 $layout_class = newstore_blog_layout();
 get_header();
-do_action( 'newstore_before_blog_post');
+do_action('newstore_before_blog_post');
 ?>
 <div class="container-full space blog-post-index">
 	<div class="container">
 		<div id="primary" class="content-area row justify-content-center">
 			<main id="main" class="site-main <?php echo esc_attr($layout_class); ?>">
-			<?php if ( have_posts() ) : ?>
-				<div id="blog-content" class="row posts-index">
-				<?php 
-					while ( have_posts() ) : the_post();
-						get_template_part( 'template-parts/content', 'index' );
-					endwhile;
-				?>
-				</div>
-				<div class="clearfix"></div>
-				<div class="the-pagination">
-					<?php the_posts_pagination(); ?>
-				</div>
-			<?php
+				<?php if (have_posts()) : ?>
+					<div id="blog-content" class="row posts-index">
+						<?php
+						while (have_posts()) : the_post();
+							get_template_part('template-parts/content', 'index');
+						endwhile;
+						?>
+					</div>
+					<div class="clearfix"></div>
+					<div class="the-pagination">
+						<?php the_posts_pagination(); ?>
+					</div>
+				<?php
 				else :
-					get_template_part( 'template-parts/content', 'none' );
-			endif; ?>
+					get_template_part('template-parts/content', 'none');
+				endif; ?>
 			</main><!-- #main -->
-			<?php 
-				if($layout_class !== 'full-width'){
-					get_sidebar();
-				} 
+			<?php
+			if ($layout_class !== 'full-width') {
+				get_sidebar();
+			}
 			?>
 		</div><!-- #primary -->
 	</div>
